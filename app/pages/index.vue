@@ -12,10 +12,18 @@
                         clip-rule="evenodd"></path>
                 </svg>
             </a>
-            <h1
+            
+            <ClientOnly>
+                <BlurReveal
+                :delay="0.2"
+                :duration="0.75"
+                >
+                <h1
                 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
                 Don’t wait for production to go down. <br> Know <span class="text-amber-500">before</span> it happens.
             </h1>
+                </BlurReveal>
+            </ClientOnly>
             <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">CatOps is
                 lightweight AI-powered server monitor that sends real-time alerts and live stats to your Telegram or
                 dashboard in seconds. One curl command, zero setup hell.</p>
