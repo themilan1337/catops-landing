@@ -57,9 +57,9 @@ useSchemaOrg([
 <template>
     <section class="bg-white dark:bg-black">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
-            <a href="#"
+            <a href="https://github.com/catops/catops" 
                 class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
-                role="alert">
+                aria-label="New: CatOps is now proudly open-source - View on GitHub">
                 <span class="text-xs bg-amber-500 rounded-full text-white px-4 py-1.5 mr-3">New</span> <span
                     class="text-sm font-medium">Now we are proudly open-source.</span>
                 <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -114,82 +114,82 @@ useSchemaOrg([
                 <div class="slider">
                     <div class="slide-track">
                         <div class="slide">
-                            <img src="/images/logos/fundmentor.png" alt="fundmentor" />
+                            <NuxtImg src="/images/logos/fundmentor.png" alt="FundMentor logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/fluensa.png" alt="fluensa" />
+                            <NuxtImg src="/images/logos/fluensa.png" alt="Fluensa logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/runvex.png" alt="runvex" />
+                            <NuxtImg src="/images/logos/runvex.png" alt="Runvex logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/cotrol.png" alt="cotrol" />
+                            <NuxtImg src="/images/logos/cotrol.png" alt="Cotrol logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/tabai.png" alt="tabai" />
+                            <NuxtImg src="/images/logos/tabai.png" alt="TabAI logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/menoai.png" alt="menoai" />
+                            <NuxtImg src="/images/logos/menoai.png" alt="MenoAI logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/adet.png" alt="adet" />
+                            <NuxtImg src="/images/logos/adet.png" alt="Adet logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/lattemind.png" alt="lattemind" />
+                            <NuxtImg src="/images/logos/lattemind.png" alt="LatteMind logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/auarai.png" alt="auarai" />
+                            <NuxtImg src="/images/logos/auarai.png" alt="AuarAI logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/sereneai.png" alt="sereneai" />
+                            <NuxtImg src="/images/logos/sereneai.png" alt="SereneAI logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/reeply.png" alt="reeply" />
+                            <NuxtImg src="/images/logos/reeply.png" alt="Reeply logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/ravenai.png" alt="ravenai" />
+                            <NuxtImg src="/images/logos/ravenai.png" alt="RavenAI logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/owlpeer.png" alt="owlpeer" />
+                            <NuxtImg src="/images/logos/owlpeer.png" alt="OwlPeer logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/fundmentor.png" alt="fundmentor" />
+                            <NuxtImg src="/images/logos/fundmentor.png" alt="FundMentor logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/fluensa.png" alt="fluensa" />
+                            <NuxtImg src="/images/logos/fluensa.png" alt="Fluensa logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/runvex.png" alt="runvex" />
+                            <NuxtImg src="/images/logos/runvex.png" alt="Runvex logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/cotrol.png" alt="cotrol" />
+                            <NuxtImg src="/images/logos/cotrol.png" alt="Cotrol logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/tabai.png" alt="tabai" />
+                            <NuxtImg src="/images/logos/tabai.png" alt="TabAI logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/menoai.png" alt="menoai" />
+                            <NuxtImg src="/images/logos/menoai.png" alt="MenoAI logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/adet.png" alt="adet" />
+                            <NuxtImg src="/images/logos/adet.png" alt="Adet logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/lattemind.png" alt="lattemind" />
+                            <NuxtImg src="/images/logos/lattemind.png" alt="LatteMind logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/auarai.png" alt="auarai" />
+                            <NuxtImg src="/images/logos/auarai.png" alt="AuarAI logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/sereneai.png" alt="sereneai" />
+                            <NuxtImg src="/images/logos/sereneai.png" alt="SereneAI logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/reeply.png" alt="reeply" />
+                            <NuxtImg src="/images/logos/reeply.png" alt="Reeply logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/ravenai.png" alt="ravenai" />
+                            <NuxtImg src="/images/logos/ravenai.png" alt="RavenAI logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <img src="/images/logos/owlpeer.png" alt="owlpeer" />
+                            <NuxtImg src="/images/logos/owlpeer.png" alt="OwlPeer logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
                     </div>
                 </div>
@@ -205,8 +205,8 @@ useSchemaOrg([
                         </h1>
                     </template>
                     <template #card>
-                        <img src="/images/dasboard.jpeg" class="mx-auto h-full rounded-2xl object-cover object-left-top"
-                            alt="hero" height="720" width="1400" />
+                        <NuxtImg src="/images/dasboard.jpeg" class="mx-auto h-full rounded-2xl object-cover object-left-top"
+                            alt="CatOps Dashboard - AI-powered server monitoring interface" height="720" width="1400" format="webp" loading="lazy" />
                     </template>
                 </ContainerScroll>
             </div>

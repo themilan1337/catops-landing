@@ -16,8 +16,15 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/seo',
     '@nuxt/image',
-    '@nuxtjs/critters'
+    '@nuxtjs/critters',
+    '@nuxt/fonts'
   ],
+  fonts: {
+    families: [
+      { name: 'Inter', provider: 'google' },
+      { name: 'Exo', provider: 'google' }
+    ]
+  },
   image: {
     quality: 80,
     format: ['webp', 'avif'],
@@ -46,7 +53,7 @@ export default defineNuxtConfig({
   experimental: {
     payloadExtraction: false
   },
-  compatibilityDate: "2025-07-15",
+  compatibilityDate: "2025-09-01",
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   vite: {
