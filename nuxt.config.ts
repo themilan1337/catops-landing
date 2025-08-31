@@ -9,7 +9,8 @@ export default defineNuxtConfig({
       link: [
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-        { rel: 'dns-prefetch', href: 'https://dash.catops.vercel.app' }
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap' },
+        { rel: 'preload', href: '/images/dasboard.jpeg', as: 'image', type: 'image/jpeg' }
       ]
     }
   },
@@ -48,7 +49,10 @@ export default defineNuxtConfig({
   },
   nitro: {
     compressPublicAssets: true,
-    minify: true
+    minify: true,
+    prerender: {
+      crawlLinks: true
+    }
   },
   experimental: {
     payloadExtraction: false

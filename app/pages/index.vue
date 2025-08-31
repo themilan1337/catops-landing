@@ -111,8 +111,8 @@ useSchemaOrg([
                         Trusted by <span class="text-amber-500">Leading</span> AI Startups
                     </h2>
                 </div>
-                <div class="slider">
-                    <div class="slide-track">
+                <div class="slider" style="height: 80px; overflow: hidden;">
+                    <div class="slide-track" style="height: 80px; display: flex; align-items: center;">
                         <div class="slide">
                             <NuxtImg src="/images/logos/fundmentor.png" alt="FundMentor logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
@@ -194,7 +194,7 @@ useSchemaOrg([
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col overflow-hidden">
+            <div class="flex flex-col overflow-hidden" style="min-height: 800px;">
                 <ContainerScroll>
                     <template #title>
                         <h1 class="text-4xl font-semibold text-black dark:text-white">
