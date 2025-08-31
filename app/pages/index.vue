@@ -7,22 +7,22 @@ useSeoMeta({
   ogTitle: 'CatOps - AI-Powered Server Monitoring | Real-Time Alerts & Live Stats',
   ogDescription: 'Don\'t wait for production to go down. Know before it happens with CatOps AI-powered server monitoring.',
   ogImage: '/images/catops-og.jpg',
-  ogUrl: 'https://catops.io',
+  ogUrl: 'https://catops.vercel.app',
   ogType: 'website',
   twitterCard: 'summary_large_image',
   twitterTitle: 'CatOps - AI-Powered Server Monitoring',
   twitterDescription: 'Real-time server monitoring with AI-powered alerts. One curl command, zero setup hell.',
   twitterImage: '/images/catops-og.jpg',
   robots: 'index, follow',
-  canonical: 'https://catops.io'
+  canonical: 'https://catops.vercel.app'
 })
 
 useSchemaOrg([
   {
     '@type': 'Organization',
     name: 'CatOps',
-    url: 'https://catops.io',
-    logo: 'https://catops.io/logo.png',
+    url: 'https://catops.vercel.app',
+    logo: 'https://catops.vercel.app/logo.png',
     description: 'AI-powered server monitoring platform',
     sameAs: [
       'https://github.com/catops'
@@ -31,11 +31,11 @@ useSchemaOrg([
   {
     '@type': 'WebSite',
     name: 'CatOps',
-    url: 'https://catops.io',
+    url: 'https://catops.vercel.app',
     description: 'AI-powered server monitoring that sends real-time alerts and live stats to your Telegram or dashboard in seconds.',
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://catops.io/search?q={search_term_string}',
+      target: 'https://catops.vercel.app/search?q={search_term_string}',
       'query-input': 'required name=search_term_string'
     }
   },
@@ -84,7 +84,7 @@ useSchemaOrg([
                 lightweight AI-powered server monitor that sends real-time alerts and live stats to your Telegram or
                 dashboard in seconds. One curl command, zero setup hell.</p>
             <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-                <a href="https://dash.catops.io/"
+                <a href="https://dash.catops.vercel.app/"
                     class="inline-flex bg-amber-500 justify-center items-center py-2 transition px-5 text-base font-medium text-center text-white rounded-2xl hover:bg-amber-600 focus:ring-4 focus:ring-amber-300 dark:focus:ring-amber-900">
                     Get Started
                     <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"

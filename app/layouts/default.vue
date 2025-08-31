@@ -5,7 +5,7 @@
         <NavBody :visible="visible">
           <NavbarLogo />
           <NavItems :items="navItems" @item-click="closeMenu" />
-          <NavbarButton to="https://dash.catops.io/" variant="primary" class="!rounded-full !px-8">
+          <NavbarButton to="https://dash.catops.vercel.app/" variant="primary" class="!rounded-full !px-8">
             Get Started
           </NavbarButton>
         </NavBody>
@@ -22,7 +22,7 @@
               {{ item.name }}
             </NuxtLink>
 
-            <NavbarButton to="https://dash.catops.io/" variant="dark" class="w-full mt-4 !rounded-full !px-8" @click="closeMenu">
+            <NavbarButton to="https://dash.catops.vercel.app/" variant="dark" class="w-full mt-4 !rounded-full !px-8" @click="closeMenu">
               Get Started
             </NavbarButton>
           </MobileNavMenu>

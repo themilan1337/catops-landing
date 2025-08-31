@@ -9,7 +9,7 @@ export default defineNuxtConfig({
       link: [
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-        { rel: 'dns-prefetch', href: 'https://dash.catops.io' }
+        { rel: 'dns-prefetch', href: 'https://dash.catops.vercel.app' }
       ]
     }
   },
@@ -34,7 +34,7 @@ export default defineNuxtConfig({
     redirectToCanonicalSiteUrl: true
   },
   site: {
-    url: 'https://catops.io',
+    url: 'https://catops.vercel.app',
     name: 'CatOps',
     description: 'AI-powered server monitoring that sends real-time alerts and live stats to your Telegram or dashboard in seconds. One curl command, zero setup hell.',
     defaultLocale: 'en'
