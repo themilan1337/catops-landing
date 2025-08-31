@@ -1,3 +1,59 @@
+<script setup>
+useSeoMeta({
+  title: 'CatOps - AI-Powered Server Monitoring | Real-Time Alerts & Live Stats',
+  description: 'CatOps is lightweight AI-powered server monitor that sends real-time alerts and live stats to your Telegram or dashboard in seconds. One curl command, zero setup hell.',
+  keywords: 'server monitoring, AI monitoring, real-time alerts, Telegram alerts, server stats, DevOps, infrastructure monitoring, uptime monitoring',
+  author: 'CatOps',
+  ogTitle: 'CatOps - AI-Powered Server Monitoring | Real-Time Alerts & Live Stats',
+  ogDescription: 'Don\'t wait for production to go down. Know before it happens with CatOps AI-powered server monitoring.',
+  ogImage: '/images/catops-og.jpg',
+  ogUrl: 'https://catops.io',
+  ogType: 'website',
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'CatOps - AI-Powered Server Monitoring',
+  twitterDescription: 'Real-time server monitoring with AI-powered alerts. One curl command, zero setup hell.',
+  twitterImage: '/images/catops-og.jpg',
+  robots: 'index, follow',
+  canonical: 'https://catops.io'
+})
+
+useSchemaOrg([
+  {
+    '@type': 'Organization',
+    name: 'CatOps',
+    url: 'https://catops.io',
+    logo: 'https://catops.io/logo.png',
+    description: 'AI-powered server monitoring platform',
+    sameAs: [
+      'https://github.com/catops'
+    ]
+  },
+  {
+    '@type': 'WebSite',
+    name: 'CatOps',
+    url: 'https://catops.io',
+    description: 'AI-powered server monitoring that sends real-time alerts and live stats to your Telegram or dashboard in seconds.',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://catops.io/search?q={search_term_string}',
+      'query-input': 'required name=search_term_string'
+    }
+  },
+  {
+    '@type': 'SoftwareApplication',
+    name: 'CatOps',
+    applicationCategory: 'DeveloperApplication',
+    operatingSystem: 'Linux, macOS, Windows',
+    description: 'AI-powered server monitoring with real-time alerts',
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD'
+    }
+  }
+])
+</script>
+
 <template>
     <section class="bg-white dark:bg-black">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
