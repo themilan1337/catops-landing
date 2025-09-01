@@ -112,107 +112,107 @@ useSchemaOrg([
                 <div class="slider">
                     <div class="slide-track">
                         <div class="slide">
-                            <NuxtImg src="/images/logos/fundmentor.png" alt="FundMentor logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/fundmentor.png" alt="FundMentor logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/fluensa.png" alt="Fluensa logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/fluensa.png" alt="Fluensa logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/runvex.png" alt="Runvex logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/runvex.png" alt="Runvex logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/cotrol.png" alt="Cotrol logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/cotrol.png" alt="Cotrol logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/tabai.png" alt="TabAI logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/tabai.png" alt="TabAI logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/menoai.png" alt="MenoAI logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/menoai.png" alt="MenoAI logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/adet.png" alt="Adet logo" width="120" height="60" format="webp"
+                            <NuxtImg src="/images/logos/adet.png" alt="Adet logo" format="webp"
                                 loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/lattemind.png" alt="LatteMind logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/lattemind.png" alt="LatteMind logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/auarai.png" alt="AuarAI logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/auarai.png" alt="AuarAI logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/sereneai.png" alt="SereneAI logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/sereneai.png" alt="SereneAI logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/reeply.png" alt="Reeply logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/reeply.png" alt="Reeply logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/ravenai.png" alt="RavenAI logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/ravenai.png" alt="RavenAI logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/owlpeer.png" alt="OwlPeer logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/owlpeer.png" alt="OwlPeer logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/fundmentor.png" alt="FundMentor logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/fundmentor.png" alt="FundMentor logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/fluensa.png" alt="Fluensa logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/fluensa.png" alt="Fluensa logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/runvex.png" alt="Runvex logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/runvex.png" alt="Runvex logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/cotrol.png" alt="Cotrol logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/cotrol.png" alt="Cotrol logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/tabai.png" alt="TabAI logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/tabai.png" alt="TabAI logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/menoai.png" alt="MenoAI logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/menoai.png" alt="MenoAI logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/adet.png" alt="Adet logo" width="120" height="60" format="webp"
+                            <NuxtImg src="/images/logos/adet.png" alt="Adet logo" format="webp"
                                 loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/lattemind.png" alt="LatteMind logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/lattemind.png" alt="LatteMind logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/auarai.png" alt="AuarAI logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/auarai.png" alt="AuarAI logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/sereneai.png" alt="SereneAI logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/sereneai.png" alt="SereneAI logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/reeply.png" alt="Reeply logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/reeply.png" alt="Reeply logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/ravenai.png" alt="RavenAI logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/ravenai.png" alt="RavenAI logo"
                                 format="webp" loading="lazy" />
                         </div>
                         <div class="slide">
-                            <NuxtImg src="/images/logos/owlpeer.png" alt="OwlPeer logo" width="120" height="60"
+                            <NuxtImg src="/images/logos/owlpeer.png" alt="OwlPeer logo"
                                 format="webp" loading="lazy" />
                         </div>
                     </div>
