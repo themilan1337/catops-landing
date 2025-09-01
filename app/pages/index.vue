@@ -111,8 +111,8 @@ useSchemaOrg([
                         Trusted by <span class="text-amber-500">Leading</span> AI Startups
                     </h2>
                 </div>
-                <div class="slider">
-                    <div class="slide-track">
+                <div class="slider" >
+                    <div class="slide-track" >
                         <div class="slide">
                             <NuxtImg src="/images/logos/fundmentor.png" alt="FundMentor logo" width="120" height="60" format="webp" loading="lazy" />
                         </div>
