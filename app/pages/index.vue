@@ -398,10 +398,10 @@ useSchemaOrg([
                         </h2>
                         <p class="mb-6 font-light text-zinc-500 dark:text-zinc-400 md:text-lg">
                             Contact our sales team and try CatOps Platform. No credit card required.</p>
-                        <a href="#"
+                        <NuxtLink to="contact/"
                             class="text-white bg-amber-700 hover:bg-amber-800 focus:ring-4 focus:ring-amber-300 font-medium rounded-2xl text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-amber-600 dark:hover:bg-amber-700 focus:outline-none dark:focus:ring-amber-800">
                         Contact Sales
-                        </a>
+                        </NuxtLink>
                     </div>
                 </div>
             </section>

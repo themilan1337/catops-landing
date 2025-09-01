@@ -5,7 +5,7 @@
         <NavBody :visible="visible">
           <NavbarLogo />
           <NavItems :items="navItems" @item-click="closeMenu" />
-          <NavbarButton to="contact/" variant="primary" class="!rounded-full !px-8">
+          <NavbarButton to="/contact" variant="primary" class="!rounded-full !px-8">
             Contact Sales
           </NavbarButton>
         </NavBody>
@@ -22,7 +22,7 @@
               {{ item.name }}
             </NuxtLink>
 
-            <NavbarButton to="contact/" variant="dark" class="w-full mt-4 !rounded-full !px-8" @click="closeMenu">
+            <NavbarButton to="/contact" variant="dark" class="w-full mt-4 !rounded-full !px-8" @click="closeMenu">
               Contact Sales
             </NavbarButton>
           </MobileNavMenu>
@@ -37,7 +37,7 @@
 
     <footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-black mt-auto">
       <div class="mx-auto max-w-screen-xl text-center">
-        <NuxtLink to="#" class="flex justify-center items-center exo text-2xl font-semibold text-amber-500 dark:text-amber-500">
+        <NuxtLink to="/" class="flex justify-center items-center exo text-2xl font-semibold text-amber-500 dark:text-amber-500">
           CatOps    
         </NuxtLink>
         <p class="my-6 text-gray-500 dark:text-gray-400">CatOps is AI server monitor that sends alerts and live stats to your Telegram or dashboard in seconds. <br> One curl command, zero setup hell.</p>
@@ -46,19 +46,19 @@
             <NuxtLink to="/" class="mr-4 hover:underline md:mr-6 ">Home</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="pricing/" class="mr-4 hover:underline md:mr-6">Pricing</NuxtLink>
+            <NuxtLink to="/pricing" class="mr-4 hover:underline md:mr-6">Pricing</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="docs/" class="mr-4 hover:underline md:mr-6 ">Documentation</NuxtLink>
+            <NuxtLink to="/docs" class="mr-4 hover:underline md:mr-6 ">Documentation</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="contact/" class="mr-4 hover:underline md:mr-6">Contact</NuxtLink>
+            <NuxtLink to="/contact" class="mr-4 hover:underline md:mr-6">Contact</NuxtLink>
           </li>
           <li>
             <NuxtLink to="mailto:contact@catops.net" class="mr-4 hover:underline md:mr-6">E-Mail</NuxtLink>
           </li>
         </ul>
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <NuxtLink to="https://catops.net/" class="hover:underline">CatOps™</NuxtLink>. All Rights Reserved.</span>
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <NuxtLink to="/" class="hover:underline">CatOps™</NuxtLink>. All Rights Reserved.</span>
       </div>
     </footer>
   </div>
