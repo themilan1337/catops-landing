@@ -1,4 +1,69 @@
 <script setup>
+const formData = ref({
+  firstName: '',
+  lastName: '',
+  email: '',
+  company: '',
+  subject: '',
+  message: ''
+})
+
+const isSubmitting = ref(false)
+const submitStatus = ref('')
+const submitMessage = ref('')
+
+const submitForm = async () => {
+  if (isSubmitting.value) return
+  
+  isSubmitting.value = true
+  submitStatus.value = ''
+  submitMessage.value = ''
+  
+  try {
+    const telegramMessage = `🔔 New Contact Form Submission\n\n` +
+      `👤 Name: ${formData.value.firstName} ${formData.value.lastName}\n` +
+      `📧 Email: ${formData.value.email}\n` +
+      `🏢 Company: ${formData.value.company || 'Not provided'}\n` +
+      `📋 Subject: ${formData.value.subject}\n` +
+      `💬 Message: ${formData.value.message}`
+    
+    const response = await $fetch('https://api.telegram.org/bot8481742827:AAHyX1Vt_dMfBA4jMOhaLdsIQqos6OcJR1Y/sendMessage', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: {
+        chat_id: '-4873227734',
+        text: telegramMessage,
+        parse_mode: 'HTML'
+      }
+    })
+    
+    if (response.ok) {
+      submitStatus.value = 'success'
+      submitMessage.value = 'Thank you! Your message has been sent successfully. We\'ll get back to you soon.'
+      
+      // Reset form
+      formData.value = {
+        firstName: '',
+        lastName: '',
+        email: '',
+        company: '',
+        subject: '',
+        message: ''
+      }
+    } else {
+      throw new Error('Failed to send message')
+    }
+  } catch (error) {
+    console.error('Error sending message:', error)
+    submitStatus.value = 'error'
+    submitMessage.value = 'Sorry, there was an error sending your message. Please try again or contact us directly.'
+  } finally {
+    isSubmitting.value = false
+  }
+}
+
 useSeoMeta({
   title: 'Contact CatOps - Get Help with Server Monitoring Setup',
   description: 'Have questions about CatOps? Need help with setup? Want to discuss enterprise solutions? Our team is ready to assist you 24/7.',
@@ -69,28 +134,28 @@ useSchemaOrg([
                 <!-- Contact Form -->
                 <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-3xl p-8">
                     <h2 class="text-2xl font-bold text-zinc-900 dark:text-white mb-6 text-left">Send us a message</h2>
-                    <form class="space-y-6">
+                    <form @submit.prevent="submitForm" class="space-y-6">
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <div>
                                 <label for="first-name" class="block text-sm font-medium text-zinc-700 dark:text-zinc-300 mb-2">First Name</label>
-                                <input type="text" id="first-name" name="first-name" class="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-xl focus:ring-4 focus:ring-amber-300 focus:border-amber-500 dark:bg-zinc-800 dark:text-white" placeholder="John" required>
+                                <input type="text" id="first-name" name="first-name" v-model="formData.firstName" class="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-xl focus:ring-4 focus:ring-amber-300 focus:border-amber-500 dark:bg-zinc-800 dark:text-white" placeholder="John" required>
                             </div>
                             <div>
                                 <label for="last-name" class="block text-sm font-medium text-zinc-700 dark:text-zinc-300 mb-2">Last Name</label>
-                                <input type="text" id="last-name" name="last-name" class="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-xl focus:ring-4 focus:ring-amber-300 focus:border-amber-500 dark:bg-zinc-800 dark:text-white" placeholder="Doe" required>
+                                <input type="text" id="last-name" name="last-name" v-model="formData.lastName" class="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-xl focus:ring-4 focus:ring-amber-300 focus:border-amber-500 dark:bg-zinc-800 dark:text-white" placeholder="Doe" required>
                             </div>
                         </div>
                         <div>
                             <label for="email" class="block text-sm font-medium text-zinc-700 dark:text-zinc-300 mb-2">Email</label>
-                            <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-xl focus:ring-4 focus:ring-amber-300 focus:border-amber-500 dark:bg-zinc-800 dark:text-white" placeholder="john@company.com" required>
+                            <input type="email" id="email" name="email" v-model="formData.email" class="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-xl focus:ring-4 focus:ring-amber-300 focus:border-amber-500 dark:bg-zinc-800 dark:text-white" placeholder="john@company.com" required>
                         </div>
                         <div>
                             <label for="company" class="block text-sm font-medium text-zinc-700 dark:text-zinc-300 mb-2">Company</label>
-                            <input type="text" id="company" name="company" class="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-xl focus:ring-4 focus:ring-amber-300 focus:border-amber-500 dark:bg-zinc-800 dark:text-white" placeholder="Your Company">
+                            <input type="text" id="company" name="company" v-model="formData.company" class="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-xl focus:ring-4 focus:ring-amber-300 focus:border-amber-500 dark:bg-zinc-800 dark:text-white" placeholder="Your Company">
                         </div>
                         <div>
                             <label for="subject" class="block text-sm font-medium text-zinc-700 dark:text-zinc-300 mb-2">Subject</label>
-                            <select id="subject" name="subject" class="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-xl focus:ring-4 focus:ring-amber-300 focus:border-amber-500 dark:bg-zinc-800 dark:text-white" required>
+                            <select id="subject" name="subject" v-model="formData.subject" class="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-xl focus:ring-4 focus:ring-amber-300 focus:border-amber-500 dark:bg-zinc-800 dark:text-white" required>
                                 <option value="">Select a topic</option>
                                 <option value="general">General Inquiry</option>
                                 <option value="support">Technical Support</option>
@@ -101,11 +166,22 @@ useSchemaOrg([
                         </div>
                         <div>
                             <label for="message" class="block text-sm font-medium text-zinc-700 dark:text-zinc-300 mb-2">Message</label>
-                            <textarea id="message" name="message" rows="5" class="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-xl focus:ring-4 focus:ring-amber-300 focus:border-amber-500 dark:bg-zinc-800 dark:text-white" placeholder="Tell us how we can help you..." required></textarea>
+                            <textarea id="message" name="message" rows="5" v-model="formData.message" class="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-xl focus:ring-4 focus:ring-amber-300 focus:border-amber-500 dark:bg-zinc-800 dark:text-white" placeholder="Tell us how we can help you..." required></textarea>
                         </div>
-                        <button type="submit" class="w-full inline-flex bg-amber-500 justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-2xl hover:bg-amber-600 focus:ring-4 focus:ring-amber-300 dark:focus:ring-amber-900 transition">
-                            Send Message
+                        <button type="submit" :disabled="isSubmitting" class="w-full inline-flex bg-amber-500 justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-2xl hover:bg-amber-600 focus:ring-4 focus:ring-amber-300 dark:focus:ring-amber-900 transition disabled:opacity-50 disabled:cursor-not-allowed">
+                            <span v-if="isSubmitting">Sending...</span>
+                            <span v-else>Send Message</span>
                         </button>
+                        
+                        <!-- Status Messages -->
+                        <div v-if="submitStatus" class="mt-4">
+                            <div v-if="submitStatus === 'success'" class="p-4 bg-green-100 border border-green-400 text-green-700 rounded-xl">
+                                {{ submitMessage }}
+                            </div>
+                            <div v-if="submitStatus === 'error'" class="p-4 bg-red-100 border border-red-400 text-red-700 rounded-xl">
+                                {{ submitMessage }}
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>

@@ -415,8 +415,8 @@ useSchemaOrg([
             leave-from-class="opacity-100"
             leave-to-class="opacity-0">
             <div v-if="isVideoModalOpen" 
-                 class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75"
-                 @click="closeVideoModal">
+                  class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
+                  @click="closeVideoModal">
                 <Transition
                     enter-active-class="transition-all duration-300 ease-out"
                     enter-from-class="opacity-0 scale-95 translate-y-4"
@@ -432,13 +432,14 @@ useSchemaOrg([
                             </svg>
                         </button>
                         <video 
-                            class="w-full h-auto rounded-lg shadow-2xl"
-                            controls 
-                            autoplay
-                            preload="metadata">
-                            <source src="/video.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
+                             v-if="isVideoModalOpen"
+                             class="w-full h-auto rounded-lg shadow-2xl"
+                             controls 
+                             autoplay
+                             preload="none">
+                             <source src="/video.mp4" type="video/mp4">
+                             Your browser does not support the video tag.
+                         </video>
                     </div>
                 </Transition>
             </div>
