@@ -81,7 +81,7 @@ useSchemaOrg([
 <template>
     <section class="bg-white dark:bg-black">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
-            <a href="https://github.com/catops/catops"
+            <a href="https://github.com/honley1/moniq.sh"
                 class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-zinc-700 bg-zinc-100 rounded-full dark:bg-zinc-800 dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-700"
                 aria-label="New: CatOps is now proudly open-source - View on GitHub">
                 <span class="text-xs bg-amber-500 rounded-full text-white px-4 py-1.5 mr-3">New</span> <span
