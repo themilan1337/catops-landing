@@ -365,8 +365,8 @@ useSchemaOrg([
                 </div>
             </div>
 
-            <section class="bg-white dark:bg-zinc-950 rounded-3xl">
-                <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <section class="bg-white dark:bg-zinc-900 rounded-3xl">
+                <div class="py-8 px-4 mx-auto max-w-2xl sm:py-16 lg:px-6">
                     <div class="mx-auto max-w-screen-sm text-center">
                         <h2
                             class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-zinc-900 dark:text-white">

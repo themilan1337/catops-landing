@@ -85,10 +85,10 @@ useSchemaOrg([
             <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Choose the perfect plan for your monitoring needs. Start with our free tier and scale as you grow. No hidden fees, cancel anytime.</p>
             
             <!-- Pricing Cards -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
                 <!-- Starter Plan -->
                 <div class="bg-white dark:bg-zinc-900 border border-gray-200 dark:border-gray-700 rounded-3xl p-8 text-center">
-                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Starter</h3>
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Open Source</h3>
                     <div class="mb-6">
                         <span class="text-4xl font-extrabold text-gray-900 dark:text-white">$0</span>
                         <span class="text-gray-500 dark:text-gray-400">/month</span>
@@ -121,53 +121,6 @@ useSchemaOrg([
                     </ul>
                     <a href="https://dash.catops.net/" class="w-full inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-2xl border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 transition">
                         Get Started Free
-                    </a>
-                </div>
-
-                <!-- Pro Plan -->
-                <div class="bg-amber-50 dark:bg-amber-900/20 border-2 border-amber-500 rounded-3xl p-8 text-center relative">
-                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                        <span class="bg-amber-500 text-white px-4 py-2 rounded-full text-sm font-medium">Most Popular</span>
-                    </div>
-                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Pro</h3>
-                    <div class="mb-6">
-                        <span class="text-4xl font-extrabold text-gray-900 dark:text-white">$29</span>
-                        <span class="text-gray-500 dark:text-gray-400">/month</span>
-                    </div>
-                    <ul class="text-left space-y-3 mb-8">
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 text-amber-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                            </svg>
-                            <span class="text-gray-700 dark:text-gray-300">Up to 50 servers</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 text-amber-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                            </svg>
-                            <span class="text-gray-700 dark:text-gray-300">Advanced monitoring</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 text-amber-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                            </svg>
-                            <span class="text-gray-700 dark:text-gray-300">Multi-channel alerts</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 text-amber-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                            </svg>
-                            <span class="text-gray-700 dark:text-gray-300">Priority support</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 text-amber-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                            </svg>
-                            <span class="text-gray-700 dark:text-gray-300">Custom dashboards</span>
-                        </li>
-                    </ul>
-                    <a href="https://dash.catops.net/" class="w-full inline-flex bg-amber-500 justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-2xl hover:bg-amber-600 focus:ring-4 focus:ring-amber-300 dark:focus:ring-amber-900 transition">
-                        Start Pro Trial
                     </a>
                 </div>
 

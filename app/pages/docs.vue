@@ -120,22 +120,39 @@ useSchemaOrg([
                                 <div>
                                     <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">1. Install CatOps</h3>
                                     <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4">
-                                        <code class="text-sm text-gray-800 dark:text-gray-200">curl -sSL https://install.catops.net | bash</code>
+                                        <code class="text-sm text-gray-800 dark:text-gray-200">curl -sfL https://catops.net/install.sh | bash</code>
                                     </div>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">One curl command, zero setup hell. Ultra-lightweight server monitoring tool.</p>
                                 </div>
                                 
                                 <div>
-                                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">2. Configure Your First Monitor</h3>
-                                    <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4">
-                                        <code class="text-sm text-gray-800 dark:text-gray-200">catops init --telegram-token YOUR_BOT_TOKEN</code>
-                                    </div>
-                                </div>
-                                
-                                <div>
-                                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">3. Start Monitoring</h3>
+                                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">2. Quick Start (Local Mode)</h3>
                                     <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4">
                                         <code class="text-sm text-gray-800 dark:text-gray-200">catops start</code>
                                     </div>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Start monitoring immediately in Local Mode. No configuration required!</p>
+                                </div>
+                                
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">3. Configure Telegram Bot (Optional)</h3>
+                                    <div class="space-y-3">
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 dark:text-white mb-2">Create Bot & Get Group ID</h4>
+                                            <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Message @BotFather on Telegram: <code>/newbot</code></p>
+                                            <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4">
+                                                <code class="text-sm text-gray-800 dark:text-gray-200">catops config set telegram.bot_token YOUR_BOT_TOKEN<br>catops config set telegram.group_id YOUR_GROUP_ID</code>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Get instant alerts via Telegram bot with remote commands.</p>
+                                </div>
+                                
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">4. Enable Cloud Mode (Optional)</h3>
+                                    <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4">
+                                        <code class="text-sm text-gray-800 dark:text-gray-200">catops config set cloud.enabled true<br>catops config set cloud.api_key YOUR_API_KEY</code>
+                                    </div>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Enable web dashboard at <a href="https://dash.catops.net" class="text-amber-600 hover:text-amber-700">dash.catops.net</a> for online monitoring.</p>
                                 </div>
                             </div>
                         </div>
@@ -149,11 +166,25 @@ useSchemaOrg([
                             
                             <div class="space-y-6">
                                 <div>
-                                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Automatic Installation (Recommended)</h3>
+                                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">One-Command Installation (Recommended)</h3>
                                     <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 mb-3">
-                                        <code class="text-sm text-gray-800 dark:text-gray-200">curl -sSL https://install.catops.net | bash</code>
+                                        <code class="text-sm text-gray-800 dark:text-gray-200">curl -sfL https://catops.net/install.sh | bash</code>
                                     </div>
-                                    <p class="text-sm text-gray-600 dark:text-gray-400">This script will automatically detect your system and install the appropriate version.</p>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">One curl command, zero setup hell. This script will automatically:</p>
+                                    <ul class="text-sm text-gray-600 dark:text-gray-400 list-disc list-inside space-y-1">
+                                        <li>Download the correct binary for your platform</li>
+                                        <li>Make it executable and add to PATH</li>
+                                        <li>Create configuration directory</li>
+                                        <li>Start monitoring service in Local Mode</li>
+                                    </ul>
+                                </div>
+                                
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Quick Installation with Telegram Setup</h3>
+                                    <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 mb-3">
+                                        <code class="text-sm text-gray-800 dark:text-gray-200">curl -sfL https://catops.net/install.sh | BOT_TOKEN="your_bot_token" GROUP_ID="your_group_id" sh -</code>
+                                    </div>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400">Install with Telegram bot configuration in one command.</p>
                                 </div>
                                 
                                 <div>
@@ -171,6 +202,12 @@ useSchemaOrg([
                                                 <code class="text-sm text-gray-800 dark:text-gray-200">brew install catops</code>
                                             </div>
                                         </div>
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 dark:text-white mb-2">From Source</h4>
+                                            <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4">
+                                                <code class="text-sm text-gray-800 dark:text-gray-200">git clone https://github.com/catops/catops.git && cd catops && go build -o catops ./cmd/catops</code>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -185,30 +222,71 @@ useSchemaOrg([
                             
                             <div class="space-y-6">
                                 <div>
-                                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Basic Configuration</h3>
-                                    <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4">
-                                        <pre class="text-sm text-gray-800 dark:text-gray-200"><code># catops.yml
-server:
-  name: "Production Server"
-  host: "0.0.0.0"
-  port: 8080
-
-monitoring:
-  cpu_threshold: 80
-  memory_threshold: 85
-  disk_threshold: 90
-  check_interval: 30s
-
-alerts:
-  telegram:
-    bot_token: "YOUR_BOT_TOKEN"
-    chat_id: "YOUR_CHAT_ID"
-  
-  email:
-    smtp_host: "smtp.gmail.com"
-    smtp_port: 587
-    username: "your-email@gmail.com"
-    password: "your-app-password"</code></pre>
+                                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Quick Start</h3>
+                                    <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 mb-3">
+                                        <code class="text-sm text-gray-800 dark:text-gray-200">catops start</code>
+                                    </div>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400">Start monitoring immediately in Local Mode. No configuration required!</p>
+                                </div>
+                                
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Telegram Bot Setup</h3>
+                                    <div class="space-y-4">
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 dark:text-white mb-2">1. Create a Telegram Bot</h4>
+                                            <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Message @BotFather on Telegram:</p>
+                                            <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 mb-2">
+                                                <code class="text-sm text-gray-800 dark:text-gray-200">/newbot</code>
+                                            </div>
+                                            <p class="text-sm text-gray-600 dark:text-gray-400">Follow the prompts to create your bot and get the bot token.</p>
+                                        </div>
+                                        
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 dark:text-white mb-2">2. Get Your Group ID</h4>
+                                            <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Add your bot to a group, then get the group ID:</p>
+                                            <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4">
+                                                <code class="text-sm text-gray-800 dark:text-gray-200">curl https://api.telegram.org/bot&lt;YOUR_BOT_TOKEN&gt;/getUpdates</code>
+                                            </div>
+                                        </div>
+                                        
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 dark:text-white mb-2">3. Configure CatOps</h4>
+                                            <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4">
+                                                <code class="text-sm text-gray-800 dark:text-gray-200">catops config set telegram.bot_token YOUR_BOT_TOKEN<br>catops config set telegram.group_id YOUR_GROUP_ID</code>
+                                            </div>
+                                        </div>
+                                        
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 dark:text-white mb-2">4. Start with Telegram</h4>
+                                            <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4">
+                                                <code class="text-sm text-gray-800 dark:text-gray-200">catops start --telegram</code>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Cloud Mode (Optional)</h3>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">For advanced features, web dashboard, and team collaboration, enable Cloud Mode:</p>
+                                    <div class="space-y-3">
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 dark:text-white mb-2">1. Get API Key</h4>
+                                            <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Visit <a href="https://dash.catops.net" class="text-blue-600 dark:text-blue-400 hover:underline">dash.catops.net</a> to create an account and get your API key.</p>
+                                        </div>
+                                        
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 dark:text-white mb-2">2. Enable Cloud Mode</h4>
+                                            <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4">
+                                                <code class="text-sm text-gray-800 dark:text-gray-200">catops config set cloud.enabled true<br>catops config set cloud.api_key YOUR_API_KEY</code>
+                                            </div>
+                                        </div>
+                                        
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 dark:text-white mb-2">3. Start with Cloud</h4>
+                                            <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4">
+                                                <code class="text-sm text-gray-800 dark:text-gray-200">catops start --cloud</code>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
