@@ -32,6 +32,7 @@
 
     <main class="flex-1">
       <slot />
+      <!-- slot is here! -->
     </main>
 
     <footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-black mt-auto">
