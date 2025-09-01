@@ -129,7 +129,7 @@ useSchemaOrg([
             </div>
             <div class="mt-4 sm:mt-5 lg:mt-6">
                 <div class="text-center mb-6 sm:mb-8">
-                    <h2 class="text-lg sm:text-xl md:text-2xl font-semibold text-zinc-200 tracking-wider uppercase">
+                    <h2 class="text-lg sm:text-xl md:text-2xl font-semibold text-zinc-800 dark:text-zinc-200 tracking-wider uppercase">
                         Trusted by <span class="text-amber-500">Leading</span> AI Startups
                     </h2>
                 </div>
@@ -260,45 +260,46 @@ useSchemaOrg([
                     </template>
                 </ContainerScroll>
             </div>
-            <div class="bg-black py-24 sm:py-32">
+            
+            <div class="bg-white dark:bg-black py-24 sm:py-32">
                 <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
-                    <h2 class="text-center text-base/7 font-semibold text-amber-400 inter">For Enterprise solutions</h2>
+                    <h2 class="text-center text-base/7 font-semibold text-amber-500 dark:text-amber-400 inter">For Enterprise solutions</h2>
                     <p
-                        class="mx-auto mt-2 text-center text-4xl font-semibold tracking-tight exo text-balance text-white sm:text-5xl">
+                        class="mx-auto mt-2 text-center text-4xl font-semibold tracking-tight exo text-balance text-zinc-900 dark:text-white sm:text-5xl">
                         Everything you need for <br> comprehensive monitoring</p>
                     <div class="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
                         <div class="relative lg:row-span-2">
-                            <div class="absolute inset-px rounded-lg bg-zinc-900 lg:rounded-l-4xl"></div>
+                            <div class="absolute inset-px rounded-lg bg-zinc-100 dark:bg-zinc-900 lg:rounded-l-4xl"></div>
                             <div
                                 class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
                                 <div class="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
-                                    <p class="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">
+                                    <p class="mt-2 text-lg font-medium tracking-tight text-zinc-900 dark:text-white max-lg:text-center">
                                         Mobile friendly
                                     </p>
-                                    <p class="mt-2 max-w-lg text-sm/6 text-zinc-400 max-lg:text-center">
+                                    <p class="mt-2 max-w-lg text-sm/6 text-zinc-600 dark:text-zinc-400 max-lg:text-center">
                                         Receive alerts as a push notifications straight into your mobile device.
                                     </p>
                                 </div>
                                 <div class="@container relative min-h-120 w-full grow max-lg:mx-auto max-lg:max-w-sm">
                                     <div
-                                        class="absolute inset-x-10 top-10 bottom-0 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-zinc-700 bg-zinc-900 outline outline-white/20">
+                                        class="absolute inset-x-10 top-10 bottom-0 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900 outline outline-zinc-300/50 dark:outline-white/20">
                                         <NuxtImg src="/images/image.png"
                                             alt="" class="size-full object-cover object-top" />
                                     </div>
                                 </div>
                             </div>
                             <div
-                                class="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-white/15 lg:rounded-l-4xl">
+                                class="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-zinc-300/50 dark:outline-white/15 lg:rounded-l-4xl">
                             </div>
                         </div>
                         <div class="relative max-lg:row-start-1">
-                            <div class="absolute inset-px rounded-lg bg-zinc-900 max-lg:rounded-t-4xl"></div>
+                            <div class="absolute inset-px rounded-lg bg-zinc-100 dark:bg-zinc-900 max-lg:rounded-t-4xl"></div>
                             <div
                                 class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
                                 <div class="px-8 pt-8 sm:px-10 sm:pt-10">
-                                    <p class="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">
+                                    <p class="mt-2 text-lg font-medium tracking-tight text-zinc-900 dark:text-white max-lg:text-center">
                                         Performance</p>
-                                    <p class="mt-2 max-w-lg text-sm/6 text-zinc-400 max-lg:text-center">
+                                    <p class="mt-2 max-w-lg text-sm/6 text-zinc-600 dark:text-zinc-400 max-lg:text-center">
                                         CatOps uses &lt;1% of your server's CPU. Manage CPU, RAM usage in app or dashboard.
                                     </p>
                                 </div>
@@ -309,17 +310,17 @@ useSchemaOrg([
                                 </div>
                             </div>
                             <div
-                                class="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-white/15 max-lg:rounded-t-4xl">
+                                class="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-zinc-300/50 dark:outline-white/15 max-lg:rounded-t-4xl">
                             </div>
                         </div>
                         <div class="relative max-lg:row-start-3 lg:col-start-2 lg:row-start-2">
-                            <div class="absolute inset-px rounded-lg bg-zinc-900"></div>
+                            <div class="absolute inset-px rounded-lg bg-zinc-100 dark:bg-zinc-900"></div>
                             <div
                                 class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
                                 <div class="px-8 pt-8 sm:px-10 sm:pt-10">
-                                    <p class="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">
+                                    <p class="mt-2 text-lg font-medium tracking-tight text-zinc-900 dark:text-white max-lg:text-center">
                                         Security</p>
-                                    <p class="mt-2 max-w-lg text-sm/6 text-zinc-400 max-lg:text-center">
+                                    <p class="mt-2 max-w-lg text-sm/6 text-zinc-600 dark:text-zinc-400 max-lg:text-center">
                                         Thoroughly secured and active layer of protection. Also, we never share your data.
                                     </p>
                                 </div>
@@ -329,52 +330,52 @@ useSchemaOrg([
                                 </div>
                             </div>
                             <div
-                                class="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-white/15">
+                                class="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-zinc-300/50 dark:outline-white/15">
                             </div>
                         </div>
                         <div class="relative lg:row-span-2">
-                            <div class="absolute inset-px rounded-lg bg-zinc-900 max-lg:rounded-b-4xl lg:rounded-r-4xl">
+                            <div class="absolute inset-px rounded-lg bg-zinc-100 dark:bg-zinc-900 max-lg:rounded-b-4xl lg:rounded-r-4xl">
                             </div>
                             <div
                                 class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
                                 <div class="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
                                     <div class="flex mx-auto items-center justify-center">
-                                        <p class="text-lg font-medium tracking-tight text-white max-lg:text-center">
+                                        <p class="text-lg font-medium tracking-tight text-zinc-900 dark:text-white max-lg:text-center">
                                             Powerful APIs
                                         </p>
-                                        <span class="inline-flex items-center ml-4 text-center gap-x-1.5 py-1 px-3 rounded-full text-xs font-medium bg-amber-600 text-white dark:bg-amber-500 self-center">Enterprise</span>
+                                        <span class="inline-flex items-center ml-4 text-center gap-x-1.5 py-1 px-3 rounded-full text-xs font-medium bg-amber-500 text-white dark:bg-amber-500 self-center">Enterprise</span>
                                     </div>
-                                    <p class="mt-2 max-w-lg text-sm/6 text-zinc-400 max-lg:text-center">
+                                    <p class="mt-2 max-w-lg text-sm/6 text-zinc-600 dark:text-zinc-400 max-lg:text-center">
                                         Seamless integration, real-time data access, and advanced monitoring capabilities.
                                     </p>
                                 </div>
                                 <div class="relative min-h-120 w-full grow">
                                     <div
-                                        class="absolute top-10 right-0 bottom-0 left-10 overflow-hidden rounded-tl-xl bg-zinc-900/60 outline outline-white/10">
-                                        <div class="flex bg-zinc-900 outline outline-white/5">
-                                            <div class="-mb-px flex text-sm/6 font-medium text-zinc-400">
+                                        class="absolute top-10 right-0 bottom-0 left-10 overflow-hidden rounded-tl-xl bg-zinc-50/90 dark:bg-zinc-900/60 outline outline-zinc-300/30 dark:outline-white/10">
+                                        <div class="flex bg-zinc-100 dark:bg-zinc-900 outline outline-zinc-300/20 dark:outline-white/5">
+                                            <div class="-mb-px flex text-sm/6 font-medium text-zinc-600 dark:text-zinc-400">
                                                 <div
-                                                    class="border-r flex border-b border-r-white/10 border-b-white/20 bg-white/5 px-4 py-2 text-white">
+                                                    class="border-r flex border-b border-r-zinc-300/30 dark:border-r-white/10 border-b-zinc-300/50 dark:border-b-white/20 bg-zinc-200/50 dark:bg-white/5 px-4 py-2 text-zinc-900 dark:text-white">
                                                     <svg class="my-auto mr-2 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><!-- Icon from VSCode Icons by Roberto Huertas - https://github.com/vscode-icons/vscode-icons/blob/master/LICENSE --><defs><linearGradient id="vscodeIconsFileTypePython0" x1="-133.268" x2="-133.198" y1="-202.91" y2="-202.84" gradientTransform="matrix(189.38 0 0 189.81 25243.061 38519.17)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#387eb8"/><stop offset="1" stop-color="#366994"/></linearGradient><linearGradient id="vscodeIconsFileTypePython1" x1="-133.575" x2="-133.495" y1="-203.203" y2="-203.133" gradientTransform="matrix(189.38 0 0 189.81 25309.061 38583.42)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffe052"/><stop offset="1" stop-color="#ffc331"/></linearGradient></defs><path fill="url(#vscodeIconsFileTypePython0)" d="M15.885 2.1c-7.1 0-6.651 3.07-6.651 3.07v3.19h6.752v1H6.545S2 8.8 2 16.005s4.013 6.912 4.013 6.912H8.33v-3.361s-.13-4.013 3.9-4.013h6.762s3.772.06 3.772-3.652V5.8s.572-3.712-6.842-3.712Zm-3.732 2.137a1.214 1.214 0 1 1-1.183 1.244v-.02a1.214 1.214 0 0 1 1.214-1.214Z"/><path fill="url(#vscodeIconsFileTypePython1)" d="M16.085 29.91c7.1 0 6.651-3.08 6.651-3.08v-3.18h-6.751v-1h9.47S30 23.158 30 15.995s-4.013-6.912-4.013-6.912H23.64V12.4s.13 4.013-3.9 4.013h-6.765S9.2 16.356 9.2 20.068V26.2s-.572 3.712 6.842 3.712h.04Zm3.732-2.147A1.214 1.214 0 1 1 21 26.519v.03a1.214 1.214 0 0 1-1.214 1.214z"/></svg>
                                                     main.py
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="text-left">
-<pre class="bg-zinc-900 rounded-lg overflow-x-auto">
+<pre class="bg-zinc-50 dark:bg-zinc-900 rounded-lg overflow-x-auto">
   <code class="text-xs">
-    <span class="text-purple-400">import</span> <span class="text-blue-400">requests</span>
+    <span class="text-purple-600 dark:text-purple-400">import</span> <span class="text-blue-600 dark:text-blue-400">requests</span>
 
-    <span class="text-zinc-300">url</span> <span class="text-zinc-400">=</span> <span class="text-amber-300">"https://api.catops.net/"</span>
+    <span class="text-zinc-700 dark:text-zinc-300">url</span> <span class="text-zinc-600 dark:text-zinc-400">=</span> <span class="text-amber-600 dark:text-amber-300">"https://api.catops.net/"</span>
     
-    <span class="text-zinc-300">response</span> <span class="text-zinc-400">=</span> <span class="text-blue-400">requests</span><span class="text-zinc-400">.</span><span class="text-green-400">get</span><span class="text-zinc-400">(</span><span class="text-zinc-300">url</span><span class="text-zinc-400">)</span>
+    <span class="text-zinc-700 dark:text-zinc-300">response</span> <span class="text-zinc-600 dark:text-zinc-400">=</span> <span class="text-blue-600 dark:text-blue-400">requests</span><span class="text-zinc-600 dark:text-zinc-400">.</span><span class="text-green-600 dark:text-green-400">get</span><span class="text-zinc-600 dark:text-zinc-400">(</span><span class="text-zinc-700 dark:text-zinc-300">url</span><span class="text-zinc-600 dark:text-zinc-400">)</span>
 
-    <span class="text-purple-400">if</span> <span class="text-zinc-300">response</span><span class="text-zinc-400">.</span><span class="text-zinc-300">status_code</span> <span class="text-zinc-400">==</span> <span class="text-amber-300">200</span><span class="text-zinc-400">:</span>
-        <span class="text-zinc-300">data</span> <span class="text-zinc-400">=</span> <span class="text-zinc-300">response</span><span class="text-zinc-400">.</span><span class="text-green-400">json</span><span class="text-zinc-400">()</span>
-        <span class="text-blue-400">print</span><span class="text-zinc-400">(</span><span class="text-amber-300">"Successful:"</span><span class="text-zinc-400">)</span>
-        <span class="text-blue-400">print</span><span class="text-zinc-400">(</span><span class="text-zinc-300">data</span><span class="text-zinc-400">)</span>
-    <span class="text-purple-400">else</span><span class="text-zinc-400">:</span>
-        <span class="text-blue-400">print</span><span class="text-zinc-400">(</span><span class="text-amber-300">"Failed!"</span><span class="text-zinc-400">)</span>
+    <span class="text-purple-600 dark:text-purple-400">if</span> <span class="text-zinc-700 dark:text-zinc-300">response</span><span class="text-zinc-600 dark:text-zinc-400">.</span><span class="text-zinc-700 dark:text-zinc-300">status_code</span> <span class="text-zinc-600 dark:text-zinc-400">==</span> <span class="text-amber-600 dark:text-amber-300">200</span><span class="text-zinc-600 dark:text-zinc-400">:</span>
+        <span class="text-zinc-700 dark:text-zinc-300">data</span> <span class="text-zinc-600 dark:text-zinc-400">=</span> <span class="text-zinc-700 dark:text-zinc-300">response</span><span class="text-zinc-600 dark:text-zinc-400">.</span><span class="text-green-600 dark:text-green-400">json</span><span class="text-zinc-600 dark:text-zinc-400">()</span>
+        <span class="text-blue-600 dark:text-blue-400">print</span><span class="text-zinc-600 dark:text-zinc-400">(</span><span class="text-amber-600 dark:text-amber-300">"Successful:"</span><span class="text-zinc-600 dark:text-zinc-400">)</span>
+        <span class="text-blue-600 dark:text-blue-400">print</span><span class="text-zinc-600 dark:text-zinc-400">(</span><span class="text-zinc-700 dark:text-zinc-300">data</span><span class="text-zinc-600 dark:text-zinc-400">)</span>
+    <span class="text-purple-600 dark:text-purple-400">else</span><span class="text-zinc-600 dark:text-zinc-400">:</span>
+        <span class="text-blue-600 dark:text-blue-400">print</span><span class="text-zinc-600 dark:text-zinc-400">(</span><span class="text-amber-600 dark:text-amber-300">"Failed!"</span><span class="text-zinc-600 dark:text-zinc-400">)</span>
   </code>
 </pre>
                                         </div>
@@ -382,7 +383,7 @@ useSchemaOrg([
                                 </div>
                             </div>
                             <div
-                                class="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-white/15 max-lg:rounded-b-4xl lg:rounded-r-4xl">
+                                class="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-zinc-300/50 dark:outline-white/15 max-lg:rounded-b-4xl lg:rounded-r-4xl">
                             </div>
                         </div>
                     </div>

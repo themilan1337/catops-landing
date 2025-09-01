@@ -31,7 +31,7 @@ function handleClick() {
       v-for="(item, idx) in items"
       :key="`link-${idx}`"
       :to="item?.link"
-      class="relative px-4 py-2 text-white transition-colors duration-200 hover:text-black dark:text-white dark:hover:text-black"
+      class="relative px-4 py-2 text-zinc-900 transition-colors duration-200 hover:text-black dark:text-white dark:hover:text-black"
       @mouseenter="handleItemHover(idx)"
       @click="handleClick"
     >

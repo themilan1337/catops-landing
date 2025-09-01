@@ -27,13 +27,17 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .slider {
-  background: #000;
+  background: #fff;
   height: 60px;
   margin: auto;
   overflow: hidden;
   position: relative;
   width: 100%;
   max-width: 320px;
+}
+
+.dark .slider {
+  background: #000;
 }
 
 @media (min-width: 640px) {
@@ -64,12 +68,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slider::before, .slider::after {
-  background: linear-gradient(to right, #000 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to right, #fff 0%, rgba(244, 244, 245, 0) 100%);
   content: "";
   height: 100%;
   position: absolute;
   width: 60px;
   z-index: 2;
+}
+
+.dark .slider::before, .dark .slider::after {
+  background: linear-gradient(to right, #000 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 @media (min-width: 640px) {
