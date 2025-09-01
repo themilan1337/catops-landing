@@ -5,8 +5,8 @@
         <NavBody :visible="visible">
           <NavbarLogo />
           <NavItems :items="navItems" @item-click="closeMenu" />
-          <NavbarButton to="https://dash.catops.net/" variant="primary" class="!rounded-full !px-8">
-            Get Started
+          <NavbarButton to="contact/" variant="primary" class="!rounded-full !px-8">
+            Contact Sales
           </NavbarButton>
         </NavBody>
 
@@ -22,8 +22,8 @@
               {{ item.name }}
             </NuxtLink>
 
-            <NavbarButton to="https://dash.catops.net/" variant="dark" class="w-full mt-4 !rounded-full !px-8" @click="closeMenu">
-              Get Started
+            <NavbarButton to="contact/" variant="dark" class="w-full mt-4 !rounded-full !px-8" @click="closeMenu">
+              Contact Sales
             </NavbarButton>
           </MobileNavMenu>
         </MobileNav>
@@ -37,34 +37,28 @@
 
     <footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-black mt-auto">
       <div class="mx-auto max-w-screen-xl text-center">
-        <a href="#" class="flex justify-center items-center exo text-2xl font-semibold text-amber-500 dark:text-amber-500">
+        <NuxtLink to="#" class="flex justify-center items-center exo text-2xl font-semibold text-amber-500 dark:text-amber-500">
           CatOps    
-        </a>
+        </NuxtLink>
         <p class="my-6 text-gray-500 dark:text-gray-400">CatOps is AI server monitor that sends alerts and live stats to your Telegram or dashboard in seconds. <br> One curl command, zero setup hell.</p>
         <ul class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
           <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+            <NuxtLink to="/" class="mr-4 hover:underline md:mr-6 ">Home</NuxtLink>
           </li>
           <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6">Premium</a>
+            <NuxtLink to="pricing/" class="mr-4 hover:underline md:mr-6">Pricing</NuxtLink>
           </li>
           <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6 ">Campaigns</a>
+            <NuxtLink to="docs/" class="mr-4 hover:underline md:mr-6 ">Documentation</NuxtLink>
           </li>
           <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6">Blog</a>
+            <NuxtLink to="contact/" class="mr-4 hover:underline md:mr-6">Contact</NuxtLink>
           </li>
           <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6">Affiliate Program</a>
-          </li>
-          <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6">FAQs</a>
-          </li>
-          <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6">Contact</a>
+            <NuxtLink to="mailto:contact@catops.net" class="mr-4 hover:underline md:mr-6">E-Mail</NuxtLink>
           </li>
         </ul>
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="#" class="hover:underline">CatOps™</a>. All Rights Reserved.</span>
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <NuxtLink to="https://catops.net/" class="hover:underline">CatOps™</NuxtLink>. All Rights Reserved.</span>
       </div>
     </footer>
   </div>

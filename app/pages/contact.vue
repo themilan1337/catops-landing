@@ -43,7 +43,7 @@ useSchemaOrg([
             <a href="#"
                 class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-zinc-700 bg-zinc-100 rounded-full dark:bg-zinc-800 dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-700"
                 role="alert">
-                <span class="text-xs bg-amber-500 rounded-full text-white px-4 py-1.5 mr-3">24/7</span> <span
+                <span class="text-xs bg-amber-500 rounded-full text-white px-4 py-1.5 mr-3">Welcome!</span> <span
                     class="text-sm font-medium">We're here to help you succeed.</span>
                 <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd"
@@ -105,7 +105,6 @@ useSchemaOrg([
                         </div>
                         <button type="submit" class="w-full inline-flex bg-amber-500 justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-2xl hover:bg-amber-600 focus:ring-4 focus:ring-amber-300 dark:focus:ring-amber-900 transition">
                             Send Message
-                            <svg class="ml-2 -mr-1 w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16"><!-- Icon from Lsicon by Wis Design - https://github.com/wisdesignsystem/lsicon/blob/main/LICENSE --><defs><path id="lsiconSendFilled0" d="M12.97 2.67a.5.5 0 0 0-.64-.64l-11 4a.5.5 0 0 0-.016.934l4.433 1.773l2.9-3.09l.707.707l-2.98 3.176l1.662 4.156a.5.5 0 0 0 .934-.015z"/></defs><g fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"><use href="#lsiconSendFilled0"/><use href="#lsiconSendFilled0"/></g></svg>
                         </button>
                     </form>
                 </div>
