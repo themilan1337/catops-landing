@@ -238,7 +238,7 @@ useSchemaOrg([
             </div>
             <div class="bg-black py-24 sm:py-32">
                 <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
-                    <h2 class="text-center text-base/7 font-semibold text-indigo-400 inter">For Enterprise solutions</h2>
+                    <h2 class="text-center text-base/7 font-semibold text-amber-400 inter">For Enterprise solutions</h2>
                     <p
                         class="mx-auto mt-2 text-center text-4xl font-semibold tracking-tight exo text-balance text-white sm:text-5xl">
                         Everything you need for <br> comprehensive monitoring</p>
@@ -318,7 +318,7 @@ useSchemaOrg([
                                         <p class="text-lg font-medium tracking-tight text-white max-lg:text-center">
                                             Powerful APIs
                                         </p>
-                                        <span class="inline-flex items-center ml-4 text-center gap-x-1.5 py-1 px-3 rounded-full text-xs font-medium bg-blue-600 text-white dark:bg-blue-500 self-center">Enterprise</span>
+                                        <span class="inline-flex items-center ml-4 text-center gap-x-1.5 py-1 px-3 rounded-full text-xs font-medium bg-amber-600 text-white dark:bg-amber-500 self-center">Enterprise</span>
                                     </div>
                                     <p class="mt-2 max-w-lg text-sm/6 text-zinc-400 max-lg:text-center">Sit quis amet
                                         rutrum tellus
