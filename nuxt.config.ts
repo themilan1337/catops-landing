@@ -42,7 +42,7 @@ export default defineNuxtConfig({
     redirectToCanonicalSiteUrl: true
   },
   site: {
-    url: 'https://catops.vercel.app',
+    url: 'https://catops.net',
     name: 'CatOps',
     description: 'AI-powered server monitoring that sends real-time alerts and live stats to your Telegram or dashboard in seconds. One curl command, zero setup hell.',
     defaultLocale: 'en'

@@ -7,14 +7,14 @@ useSeoMeta({
   ogTitle: 'CatOps Pricing - Simple & Transparent Server Monitoring Plans',
   ogDescription: 'Simple, transparent pricing for every team size. Start with our free tier and scale as you grow.',
   ogImage: '/images/catops-pricing-og.jpg',
-  ogUrl: 'https://catops.vercel.app/pricing',
+  ogUrl: 'https://catops.net/pricing',
   ogType: 'website',
   twitterCard: 'summary_large_image',
   twitterTitle: 'CatOps Pricing - Simple & Transparent Plans',
   twitterDescription: 'Choose the perfect plan for your monitoring needs. Start free, scale as you grow.',
   twitterImage: '/images/catops-pricing-og.jpg',
   robots: 'index, follow',
-  canonical: 'https://catops.vercel.app/pricing'
+  canonical: 'https://catops.net/pricing'
 })
 
 useSchemaOrg([
@@ -119,7 +119,7 @@ useSchemaOrg([
                             <span class="text-gray-700 dark:text-gray-300">Community support</span>
                         </li>
                     </ul>
-                    <a href="https://dash.catops.vercel.app/" class="w-full inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-2xl border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 transition">
+                    <a href="https://dash.catops.net/" class="w-full inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-2xl border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 transition">
                         Get Started Free
                     </a>
                 </div>
@@ -166,7 +166,7 @@ useSchemaOrg([
                             <span class="text-gray-700 dark:text-gray-300">Custom dashboards</span>
                         </li>
                     </ul>
-                    <a href="https://dash.catops.vercel.app/" class="w-full inline-flex bg-amber-500 justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-2xl hover:bg-amber-600 focus:ring-4 focus:ring-amber-300 dark:focus:ring-amber-900 transition">
+                    <a href="https://dash.catops.net/" class="w-full inline-flex bg-amber-500 justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-2xl hover:bg-amber-600 focus:ring-4 focus:ring-amber-300 dark:focus:ring-amber-900 transition">
                         Start Pro Trial
                     </a>
                 </div>
@@ -249,7 +249,7 @@ useSchemaOrg([
                     <div class="mx-auto max-w-screen-sm text-center">
                         <h2 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900 dark:text-white">Ready to get started?</h2>
                         <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">Join thousands of developers who trust CatOps to monitor their infrastructure.</p>
-                        <a href="https://dash.catops.vercel.app/" class="text-white bg-amber-700 hover:bg-amber-800 focus:ring-4 focus:ring-amber-300 font-medium rounded-2xl text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-amber-600 dark:hover:bg-amber-700 focus:outline-none dark:focus:ring-amber-800">Start Free Trial</a>
+                        <a href="https://dash.catops.net/" class="text-white bg-amber-700 hover:bg-amber-800 focus:ring-4 focus:ring-amber-300 font-medium rounded-2xl text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-amber-600 dark:hover:bg-amber-700 focus:outline-none dark:focus:ring-amber-800">Start Free Trial</a>
                     </div>
                 </div>
             </section>

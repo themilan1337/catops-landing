@@ -7,14 +7,14 @@ useSeoMeta({
   ogTitle: 'CatOps Documentation - Complete Server Monitoring Guide',
   ogDescription: 'Complete documentation to get you started with CatOps server monitoring. Quick setup to advanced configurations.',
   ogImage: '/images/catops-docs-og.jpg',
-  ogUrl: 'https://catops.vercel.app/docs',
+  ogUrl: 'https://catops.net/docs',
   ogType: 'website',
   twitterCard: 'summary_large_image',
   twitterTitle: 'CatOps Documentation - Complete Guide',
   twitterDescription: 'Everything you need to know about CatOps server monitoring. Comprehensive guides and examples.',
   twitterImage: '/images/catops-docs-og.jpg',
   robots: 'index, follow',
-  canonical: 'https://catops.vercel.app/docs'
+  canonical: 'https://catops.net/docs'
 })
 
 useSchemaOrg([
@@ -31,7 +31,7 @@ useSchemaOrg([
       name: 'CatOps',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://catops.vercel.app/logo.png'
+        url: 'https://catops.net/logo.png'
       }
     },
     datePublished: '2024-01-01',
@@ -120,7 +120,7 @@ useSchemaOrg([
                                 <div>
                                     <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">1. Install CatOps</h3>
                                     <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4">
-                                        <code class="text-sm text-gray-800 dark:text-gray-200">curl -sSL https://install.catops.vercel.app | bash</code>
+                                        <code class="text-sm text-gray-800 dark:text-gray-200">curl -sSL https://install.catops.net | bash</code>
                                     </div>
                                 </div>
                                 
@@ -151,7 +151,7 @@ useSchemaOrg([
                                 <div>
                                     <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Automatic Installation (Recommended)</h3>
                                     <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 mb-3">
-                                        <code class="text-sm text-gray-800 dark:text-gray-200">curl -sSL https://install.catops.vercel.app | bash</code>
+                                        <code class="text-sm text-gray-800 dark:text-gray-200">curl -sSL https://install.catops.net | bash</code>
                                     </div>
                                     <p class="text-sm text-gray-600 dark:text-gray-400">This script will automatically detect your system and install the appropriate version.</p>
                                 </div>
@@ -162,7 +162,7 @@ useSchemaOrg([
                                         <div>
                                             <h4 class="font-medium text-gray-900 dark:text-white mb-2">Linux (x86_64)</h4>
                                             <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4">
-                                                <code class="text-sm text-gray-800 dark:text-gray-200">wget https://releases.catops.vercel.app/latest/catops-linux-amd64.tar.gz<br>tar -xzf catops-linux-amd64.tar.gz<br>sudo mv catops /usr/local/bin/</code>
+                                                <code class="text-sm text-gray-800 dark:text-gray-200">wget https://releases.catops.net/latest/catops-linux-amd64.tar.gz<br>tar -xzf catops-linux-amd64.tar.gz<br>sudo mv catops /usr/local/bin/</code>
                                             </div>
                                         </div>
                                         <div>
@@ -286,7 +286,7 @@ alerts:
                             </div>
                             <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Email Support</h3>
                             <p class="text-gray-500 dark:text-gray-400 mb-4">Get direct help from our support team via email.</p>
-                            <a href="mailto:support@catops.vercel.app" class="text-amber-600 hover:text-amber-700 font-medium">Contact Support →</a>
+                            <a href="mailto:support@catops.net" class="text-amber-600 hover:text-amber-700 font-medium">Contact Support →</a>
                         </div>
                         <div class="text-center">
                             <div class="w-16 h-16 bg-amber-100 dark:bg-amber-900/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
@@ -308,7 +308,7 @@ alerts:
                     <div class="mx-auto max-w-screen-sm text-center">
                         <h2 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900 dark:text-white">Ready to start monitoring?</h2>
                         <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">Follow our quick start guide and have CatOps running in minutes.</p>
-                        <a href="https://dash.catops.vercel.app/" class="text-white bg-amber-700 hover:bg-amber-800 focus:ring-4 focus:ring-amber-300 font-medium rounded-2xl text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-amber-600 dark:hover:bg-amber-700 focus:outline-none dark:focus:ring-amber-800">Get Started Now</a>
+                        <a href="https://dash.catops.net/" class="text-white bg-amber-700 hover:bg-amber-800 focus:ring-4 focus:ring-amber-300 font-medium rounded-2xl text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-amber-600 dark:hover:bg-amber-700 focus:outline-none dark:focus:ring-amber-800">Get Started Now</a>
                     </div>
                 </div>
             </section>
