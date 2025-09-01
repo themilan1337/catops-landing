@@ -1,4 +1,28 @@
 <script setup>
+const isVideoModalOpen = ref(false)
+
+const openVideoModal = () => {
+    isVideoModalOpen.value = true
+}
+
+const closeVideoModal = () => {
+    isVideoModalOpen.value = false
+}
+
+// Close modal on Escape key
+onMounted(() => {
+    const handleEscape = (event) => {
+        if (event.key === 'Escape' && isVideoModalOpen.value) {
+            closeVideoModal()
+        }
+    }
+    document.addEventListener('keydown', handleEscape)
+    
+    onUnmounted(() => {
+        document.removeEventListener('keydown', handleEscape)
+    })
+})
+
 useSeoMeta({
     title: 'CatOps - AI-Powered Server Monitoring | Real-Time Alerts & Live Stats',
     description: 'CatOps is lightweight AI-powered server monitor that sends real-time alerts and live stats to your Telegram or dashboard in seconds. One curl command, zero setup hell.',
@@ -92,7 +116,7 @@ useSchemaOrg([
                             clip-rule="evenodd"></path>
                     </svg>
                 </NuxtLink>
-                <a href="#"
+                <button @click="openVideoModal"
                     class="inline-flex justify-center transition items-center py-2 px-5 text-base font-medium text-center text-zinc-900 rounded-2xl border border-zinc-300 hover:bg-zinc-100 focus:ring-4 focus:ring-zinc-100 dark:text-white dark:border-zinc-700 dark:hover:bg-zinc-700 dark:focus:ring-zinc-800">
                     <svg class="mr-2 -ml-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
@@ -101,7 +125,7 @@ useSchemaOrg([
                         </path>
                     </svg>
                     Watch video
-                </a>
+                </button>
             </div>
             <div class="mt-4 sm:mt-5 lg:mt-6">
                 <div class="text-center mb-6 sm:mb-8">
@@ -381,5 +405,43 @@ useSchemaOrg([
                 </div>
             </section>
         </div>
+        
+        <!-- Video Modal -->
+        <Transition
+            enter-active-class="transition-all duration-300 ease-out"
+            enter-from-class="opacity-0"
+            enter-to-class="opacity-100"
+            leave-active-class="transition-all duration-200 ease-in"
+            leave-from-class="opacity-100"
+            leave-to-class="opacity-0">
+            <div v-if="isVideoModalOpen" 
+                 class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75"
+                 @click="closeVideoModal">
+                <Transition
+                    enter-active-class="transition-all duration-300 ease-out"
+                    enter-from-class="opacity-0 scale-95 translate-y-4"
+                    enter-to-class="opacity-100 scale-100 translate-y-0"
+                    leave-active-class="transition-all duration-200 ease-in"
+                    leave-from-class="opacity-100 scale-100 translate-y-0"
+                    leave-to-class="opacity-0 scale-95 translate-y-4">
+                    <div v-if="isVideoModalOpen" class="relative max-w-4xl mx-auto p-4" @click.stop>
+                        <button @click="closeVideoModal" 
+                                class="absolute -top-12 right-0 text-white hover:text-gray-300 transition-colors duration-200">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                        <video 
+                            class="w-full h-auto rounded-lg shadow-2xl"
+                            controls 
+                            autoplay
+                            preload="metadata">
+                            <source src="/video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </Transition>
+            </div>
+        </Transition>
     </section>
 </template>

@@ -196,13 +196,18 @@ useSchemaOrg([
                 </div>
             </section>
 
-            <!-- CTA Section -->
-            <section class="bg-white dark:bg-zinc-950 rounded-3xl">
-                <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <section class="bg-white dark:bg-zinc-900 rounded-3xl">
+                <div class="py-8 px-4 mx-auto max-w-2xl sm:py-16 lg:px-6">
                     <div class="mx-auto max-w-screen-sm text-center">
-                        <h2 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900 dark:text-white">Ready to get started?</h2>
-                        <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">Join thousands of developers who trust CatOps to monitor their infrastructure.</p>
-                        <a href="https://dash.catops.net/" class="text-white bg-amber-700 hover:bg-amber-800 focus:ring-4 focus:ring-amber-300 font-medium rounded-2xl text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-amber-600 dark:hover:bg-amber-700 focus:outline-none dark:focus:ring-amber-800">Start Free Trial</a>
+                        <h2 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-zinc-900 dark:text-white">
+                            Schedule a demo with us
+                        </h2>
+                        <p class="mb-6 font-light text-zinc-500 dark:text-zinc-400 md:text-lg">
+                            Contact our sales team and try CatOps Platform. No credit card required.</p>
+                        <a href="#"
+                            class="text-white bg-amber-700 hover:bg-amber-800 focus:ring-4 focus:ring-amber-300 font-medium rounded-2xl text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-amber-600 dark:hover:bg-amber-700 focus:outline-none dark:focus:ring-amber-800">
+                        Contact Sales
+                        </a>
                     </div>
                 </div>
             </section>
