@@ -76,9 +76,9 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 2;
 }
 
-.dark .slider::before, .dark .slider::after {
+/* .dark .slider::before, .dark .slider::after {
   background: linear-gradient(to right, #000 0%, rgba(0, 0, 0, 0) 100%);
-}
+} */
 
 @media (min-width: 640px) {
   .slider::before, .slider::after {
@@ -176,4 +176,13 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-border-radius: 10px;
     border-radius: 10px;
     background: #6d6d6d; 
+}
+
+@media (prefers-color-scheme: dark) {
+  .slider {
+    background: #000;
+  }
+  .slider::before, .slider::after {
+    background: linear-gradient(to right, #000 0%, rgba(0, 0, 0, 0) 100%);
+  }
 }
