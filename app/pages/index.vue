@@ -305,7 +305,7 @@ useSchemaOrg([
                                 </div>
                                 <div
                                     class="flex flex-1 items-center justify-center px-8 max-lg:pt-10 max-lg:pb-12 sm:px-10 lg:pb-2">
-                                    <img src="https://tailwindcss.com/plus-assets/img/component-images/dark-bento-03-performance.png"
+                                    <NuxtImg src="/images/1.png"
                                         alt="" class="w-full max-lg:max-w-xs" />
                                 </div>
                             </div>
@@ -325,7 +325,7 @@ useSchemaOrg([
                                     </p>
                                 </div>
                                 <div class="@container flex flex-1 items-center max-lg:py-6 lg:pb-2">
-                                    <img src="https://tailwindcss.com/plus-assets/img/component-images/dark-bento-03-security.png"
+                                    <NuxtImg src="/images/2.png"
                                         alt="" class="h-[min(152px,40cqw)] object-cover" />
                                 </div>
                             </div>
