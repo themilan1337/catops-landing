@@ -3,7 +3,7 @@
 @import "tailwindcss";
 
 @theme {
-    --font-display: 'Exo', sans-serif;
+  --font-display: 'Exo', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -179,6 +179,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (prefers-color-scheme: dark) {
+  html, body {
+    background-color: #000;
+  }
   .slider {
     background: #000;
   }
