@@ -7,14 +7,14 @@ useSeoMeta({
   ogTitle: 'CatOps Pricing - Simple & Transparent Server Monitoring Plans',
   ogDescription: 'Simple, transparent pricing for every team size. Start with our free tier and scale as you grow.',
   ogImage: '/images/catops-pricing-og.jpg',
-  ogUrl: 'https://catops.net/pricing',
+  ogUrl: 'https://catops.io/pricing',
   ogType: 'website',
   twitterCard: 'summary_large_image',
   twitterTitle: 'CatOps Pricing - Simple & Transparent Plans',
   twitterDescription: 'Choose the perfect plan for your monitoring needs. Start free, scale as you grow.',
   twitterImage: '/images/catops-pricing-og.jpg',
   robots: 'index, follow',
-  canonical: 'https://catops.net/pricing'
+  canonical: 'https://catops.io/pricing'
 })
 
 useSchemaOrg([

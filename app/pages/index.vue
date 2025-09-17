@@ -31,22 +31,22 @@ useSeoMeta({
     ogTitle: 'CatOps - AI-Powered Server Monitoring | Real-Time Alerts & Live Stats',
     ogDescription: 'Don\'t wait for production to go down. Know before it happens with CatOps AI-powered server monitoring.',
     ogImage: '/images/catops-og.jpg',
-    ogUrl: 'https://catops.net',
+    ogUrl: 'https://catops.io',
     ogType: 'website',
     twitterCard: 'summary_large_image',
     twitterTitle: 'CatOps - AI-Powered Server Monitoring',
     twitterDescription: 'Real-time server monitoring with AI-powered alerts. One curl command, zero setup hell.',
     twitterImage: '/images/catops-og.jpg',
     robots: 'index, follow',
-    canonical: 'https://catops.net'
+    canonical: 'https://catops.io'
 })
 
 useSchemaOrg([
     {
         '@type': 'Organization',
         name: 'CatOps',
-        url: 'https://catops.net',
-        logo: 'https://catops.net/logo.png',
+        url: 'https://catops.io',
+        logo: 'https://catops.io/logo.png',
         description: 'AI-powered server monitoring platform',
         sameAs: [
             'https://github.com/catops'
@@ -55,11 +55,11 @@ useSchemaOrg([
     {
         '@type': 'WebSite',
         name: 'CatOps',
-        url: 'https://catops.net',
+        url: 'https://catops.io',
         description: 'AI-powered server monitoring that sends real-time alerts and live stats to your Telegram or dashboard in seconds.',
         potentialAction: {
             '@type': 'SearchAction',
-            target: 'https://catops.net/search?q={search_term_string}',
+            target: 'https://catops.io/search?q={search_term_string}',
             'query-input': 'required name=search_term_string'
         }
     },
@@ -366,7 +366,7 @@ useSchemaOrg([
   <code class="text-xs">
     <span class="text-purple-600 dark:text-purple-400">import</span> <span class="text-blue-600 dark:text-blue-400">requests</span>
 
-    <span class="text-zinc-700 dark:text-zinc-300">url</span> <span class="text-zinc-600 dark:text-zinc-400">=</span> <span class="text-amber-600 dark:text-amber-300">"https://api.catops.net/"</span>
+    <span class="text-zinc-700 dark:text-zinc-300">url</span> <span class="text-zinc-600 dark:text-zinc-400">=</span> <span class="text-amber-600 dark:text-amber-300">"https://api.catops.io/"</span>
     
     <span class="text-zinc-700 dark:text-zinc-300">response</span> <span class="text-zinc-600 dark:text-zinc-400">=</span> <span class="text-blue-600 dark:text-blue-400">requests</span><span class="text-zinc-600 dark:text-zinc-400">.</span><span class="text-green-600 dark:text-green-400">get</span><span class="text-zinc-600 dark:text-zinc-400">(</span><span class="text-zinc-700 dark:text-zinc-300">url</span><span class="text-zinc-600 dark:text-zinc-400">)</span>
 

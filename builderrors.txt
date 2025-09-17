@@ -137,10 +137,10 @@
 [18:53:22.053] [log] [nitro]   │   "Documentation"
 [18:53:22.053] [log] [nitro]   │   └─ Should not have a trailing slash. (trailing-slash)
 [18:53:22.053] [log] [nitro]   │       Fix: Removing trailing slash.
-[18:53:22.053] [log] [nitro]   └─ https://catops.net/
+[18:53:22.053] [log] [nitro]   └─ https://catops.io/
 [18:53:22.053] [log] [nitro]       "CatOps™"
 [18:53:22.053] [log] [nitro]       └─ Internal links should be relative. (absolute-site-urls)
-[18:53:22.053] [log] [nitro]           Fix: Remove https://catops.net.
+[18:53:22.053] [log] [nitro]           Fix: Remove https://catops.io.
 [18:53:22.054] [log] [nitro]
 [18:53:22.054] [log] [nitro] /contact/ [4 errors, 5 warnings]
 [18:53:22.054] [log] [nitro]   ├─ /contact/contact/
@@ -165,10 +165,10 @@
 [18:53:22.055] [log] [nitro]   │   │   Fix: Did you mean /contact/?
 [18:53:22.055] [log] [nitro]   │   └─ Should not have a trailing slash. (trailing-slash)
 [18:53:22.055] [log] [nitro]   │       Fix: Removing trailing slash.
-[18:53:22.055] [log] [nitro]   └─ https://catops.net/
+[18:53:22.055] [log] [nitro]   └─ https://catops.io/
 [18:53:22.055] [log] [nitro]       "CatOps™"
 [18:53:22.055] [log] [nitro]       └─ Internal links should be relative. (absolute-site-urls)
-[18:53:22.056] [log] [nitro]           Fix: Remove https://catops.net.
+[18:53:22.056] [log] [nitro]           Fix: Remove https://catops.io.
 [18:53:22.057] [log] [nitro]
 [18:53:22.057] [log] [nitro] /pricing/ [4 errors, 5 warnings]
 [18:53:22.057] [log] [nitro]   ├─ /pricing/contact/
@@ -193,10 +193,10 @@
 [18:53:22.058] [log] [nitro]   │   │   Fix: Did you mean /pricing/?
 [18:53:22.058] [log] [nitro]   │   └─ Should not have a trailing slash. (trailing-slash)
 [18:53:22.058] [log] [nitro]   │       Fix: Removing trailing slash.
-[18:53:22.058] [log] [nitro]   └─ https://catops.net/
+[18:53:22.058] [log] [nitro]   └─ https://catops.io/
 [18:53:22.058] [log] [nitro]       "CatOps™"
 [18:53:22.058] [log] [nitro]       └─ Internal links should be relative. (absolute-site-urls)
-[18:53:22.058] [log] [nitro]           Fix: Remove https://catops.net.
+[18:53:22.058] [log] [nitro]           Fix: Remove https://catops.io.
 [18:53:22.070] [log] [nitro]
 [18:53:22.071] [log] [nitro] /docs [5 warnings]
 [18:53:22.071] [log] [nitro]   ├─ /contact/
@@ -213,10 +213,10 @@
 [18:53:22.071] [log] [nitro]   │   "Documentation"
 [18:53:22.072] [log] [nitro]   │   └─ Should not have a trailing slash. (trailing-slash)
 [18:53:22.072] [log] [nitro]   │       Fix: Removing trailing slash.
-[18:53:22.072] [log] [nitro]   └─ https://catops.net/
+[18:53:22.072] [log] [nitro]   └─ https://catops.io/
 [18:53:22.072] [log] [nitro]       "CatOps™"
 [18:53:22.072] [log] [nitro]       └─ Internal links should be relative. (absolute-site-urls)
-[18:53:22.072] [log] [nitro]           Fix: Remove https://catops.net.
+[18:53:22.072] [log] [nitro]           Fix: Remove https://catops.io.
 [18:53:22.072] [log] [nitro]
 [18:53:22.072] [log] [nitro] /docs/ [4 errors, 5 warnings]
 [18:53:22.072] [log] [nitro]   ├─ /docs/contact/
@@ -241,10 +241,10 @@
 [18:53:22.074] [log] [nitro]   │   │   Fix: Did you mean /docs/?
 [18:53:22.074] [log] [nitro]   │   └─ Should not have a trailing slash. (trailing-slash)
 [18:53:22.074] [log] [nitro]   │       Fix: Removing trailing slash.
-[18:53:22.074] [log] [nitro]   └─ https://catops.net/
+[18:53:22.074] [log] [nitro]   └─ https://catops.io/
 [18:53:22.074] [log] [nitro]       "CatOps™"
 [18:53:22.074] [log] [nitro]       └─ Internal links should be relative. (absolute-site-urls)
-[18:53:22.074] [log] [nitro]           Fix: Remove https://catops.net.
+[18:53:22.074] [log] [nitro]           Fix: Remove https://catops.io.
 [18:53:22.085] [log] [nitro]
 [18:53:22.086] [log] [nitro] /pricing [5 warnings]
 [18:53:22.086] [log] [nitro]   ├─ /contact/
@@ -261,10 +261,10 @@
 [18:53:22.086] [log] [nitro]   │   "Documentation"
 [18:53:22.087] [log] [nitro]   │   └─ Should not have a trailing slash. (trailing-slash)
 [18:53:22.087] [log] [nitro]   │       Fix: Removing trailing slash.
-[18:53:22.087] [log] [nitro]   └─ https://catops.net/
+[18:53:22.087] [log] [nitro]   └─ https://catops.io/
 [18:53:22.087] [log] [nitro]       "CatOps™"
 [18:53:22.087] [log] [nitro]       └─ Internal links should be relative. (absolute-site-urls)
-[18:53:22.087] [log] [nitro]           Fix: Remove https://catops.net.
+[18:53:22.087] [log] [nitro]           Fix: Remove https://catops.io.
 [18:53:22.087] [log] [nitro]
 [18:53:22.087] [log] [nitro] /contact [5 warnings]
 [18:53:22.087] [log] [nitro]   ├─ /contact/
@@ -281,10 +281,10 @@
 [18:53:22.088] [log] [nitro]   │   "Documentation"
 [18:53:22.088] [log] [nitro]   │   └─ Should not have a trailing slash. (trailing-slash)
 [18:53:22.088] [log] [nitro]   │       Fix: Removing trailing slash.
-[18:53:22.089] [log] [nitro]   └─ https://catops.net/
+[18:53:22.089] [log] [nitro]   └─ https://catops.io/
 [18:53:22.089] [log] [nitro]       "CatOps™"
 [18:53:22.089] [log] [nitro]       └─ Internal links should be relative. (absolute-site-urls)
-[18:53:22.089] [log] [nitro]           Fix: Remove https://catops.net.
+[18:53:22.089] [log] [nitro]           Fix: Remove https://catops.io.
 [18:53:22.089] [info] [nitro] Nuxt Link Checker Summary
 [18:53:22.089] [log] [nitro]   Failing Pages: 7 of 7
 [18:53:22.089] [log] [nitro]   ❌ Total errors: 14

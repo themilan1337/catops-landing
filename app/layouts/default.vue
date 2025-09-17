@@ -55,7 +55,7 @@
             <NuxtLink to="/contact" class="mr-4 hover:underline md:mr-6">Contact</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="mailto:contact@catops.net" class="mr-4 hover:underline md:mr-6">E-Mail</NuxtLink>
+            <NuxtLink to="mailto:contact@catops.io" class="mr-4 hover:underline md:mr-6">E-Mail</NuxtLink>
           </li>
         </ul>
         <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <NuxtLink to="/" class="hover:underline">CatOps™</NuxtLink>. All Rights Reserved.</span>

@@ -7,14 +7,14 @@ useSeoMeta({
   ogTitle: 'CatOps Documentation - Complete Server Monitoring Guide',
   ogDescription: 'Complete documentation to get you started with CatOps server monitoring. Quick setup to advanced configurations.',
   ogImage: '/images/catops-docs-og.jpg',
-  ogUrl: 'https://catops.net/docs',
+  ogUrl: 'https://catops.io/docs',
   ogType: 'website',
   twitterCard: 'summary_large_image',
   twitterTitle: 'CatOps Documentation - Complete Guide',
   twitterDescription: 'Everything you need to know about CatOps server monitoring. Comprehensive guides and examples.',
   twitterImage: '/images/catops-docs-og.jpg',
   robots: 'index, follow',
-  canonical: 'https://catops.net/docs'
+  canonical: 'https://catops.io/docs'
 })
 
 useSchemaOrg([
@@ -31,7 +31,7 @@ useSchemaOrg([
       name: 'CatOps',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://catops.net/logo.png'
+        url: 'https://catops.io/logo.png'
       }
     },
     datePublished: '2024-01-01',
@@ -120,7 +120,7 @@ useSchemaOrg([
                                 <div>
                                     <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">1. Install CatOps</h3>
                                     <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4">
-                                        <code class="text-sm text-gray-800 dark:text-gray-200">curl -sfL https://catops.net/install.sh | bash</code>
+                                        <code class="text-sm text-gray-800 dark:text-gray-200">curl -sfL https://catops.io/install.sh | bash</code>
                                     </div>
                                     <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">One curl command, zero setup hell. Ultra-lightweight server monitoring tool.</p>
                                 </div>
@@ -152,7 +152,7 @@ useSchemaOrg([
                                     <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4">
                                         <code class="text-sm text-gray-800 dark:text-gray-200">catops config set cloud.enabled true<br>catops config set cloud.api_key YOUR_API_KEY</code>
                                     </div>
-                                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Enable web dashboard at <a href="https://dash.catops.net" class="text-amber-600 hover:text-amber-700">dash.catops.net</a> for online monitoring.</p>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Enable web dashboard at <a href="https://dash.catops.io" class="text-amber-600 hover:text-amber-700">dash.catops.io</a> for online monitoring.</p>
                                 </div>
                             </div>
                         </div>
@@ -168,7 +168,7 @@ useSchemaOrg([
                                 <div>
                                     <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">One-Command Installation (Recommended)</h3>
                                     <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 mb-3">
-                                        <code class="text-sm text-gray-800 dark:text-gray-200">curl -sfL https://catops.net/install.sh | bash</code>
+                                        <code class="text-sm text-gray-800 dark:text-gray-200">curl -sfL https://catops.io/install.sh | bash</code>
                                     </div>
                                     <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">One curl command, zero setup hell. This script will automatically:</p>
                                     <ul class="text-sm text-gray-600 dark:text-gray-400 list-disc list-inside space-y-1">
@@ -182,7 +182,7 @@ useSchemaOrg([
                                 <div>
                                     <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Quick Installation with Telegram Setup</h3>
                                     <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 mb-3">
-                                        <code class="text-sm text-gray-800 dark:text-gray-200">curl -sfL https://catops.net/install.sh | BOT_TOKEN="your_bot_token" GROUP_ID="your_group_id" sh -</code>
+                                        <code class="text-sm text-gray-800 dark:text-gray-200">curl -sfL https://catops.io/install.sh | BOT_TOKEN="your_bot_token" GROUP_ID="your_group_id" sh -</code>
                                     </div>
                                     <p class="text-sm text-gray-600 dark:text-gray-400">Install with Telegram bot configuration in one command.</p>
                                 </div>
@@ -193,7 +193,7 @@ useSchemaOrg([
                                         <div>
                                             <h4 class="font-medium text-gray-900 dark:text-white mb-2">Linux (x86_64)</h4>
                                             <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4">
-                                                <code class="text-sm text-gray-800 dark:text-gray-200">wget https://releases.catops.net/latest/catops-linux-amd64.tar.gz<br>tar -xzf catops-linux-amd64.tar.gz<br>sudo mv catops /usr/local/bin/</code>
+                                                <code class="text-sm text-gray-800 dark:text-gray-200">wget https://releases.catops.io/latest/catops-linux-amd64.tar.gz<br>tar -xzf catops-linux-amd64.tar.gz<br>sudo mv catops /usr/local/bin/</code>
                                             </div>
                                         </div>
                                         <div>
@@ -271,7 +271,7 @@ useSchemaOrg([
                                     <div class="space-y-3">
                                         <div>
                                             <h4 class="font-medium text-gray-900 dark:text-white mb-2">1. Get API Key</h4>
-                                            <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Visit <a href="https://dash.catops.net" class="text-blue-600 dark:text-blue-400 hover:underline">dash.catops.net</a> to create an account and get your API key.</p>
+                                            <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Visit <a href="https://dash.catops.io" class="text-blue-600 dark:text-blue-400 hover:underline">dash.catops.io</a> to create an account and get your API key.</p>
                                         </div>
                                         
                                         <div>
@@ -364,7 +364,7 @@ useSchemaOrg([
                             </div>
                             <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Email Support</h3>
                             <p class="text-gray-500 dark:text-gray-400 mb-4">Get direct help from our support team via email.</p>
-                            <a href="mailto:support@catops.net" class="text-amber-600 hover:text-amber-700 font-medium">Contact Support →</a>
+                            <a href="mailto:support@catops.io" class="text-amber-600 hover:text-amber-700 font-medium">Contact Support →</a>
                         </div>
                         <div class="text-center">
                             <div class="w-16 h-16 bg-amber-100 dark:bg-amber-900/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
@@ -386,7 +386,7 @@ useSchemaOrg([
                     <div class="mx-auto max-w-screen-sm text-center">
                         <h2 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900 dark:text-white">Ready to start monitoring?</h2>
                         <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">Follow our quick start guide and have CatOps running in minutes.</p>
-                        <a href="https://dash.catops.net/" class="text-white bg-amber-700 hover:bg-amber-800 focus:ring-4 focus:ring-amber-300 font-medium rounded-2xl text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-amber-600 dark:hover:bg-amber-700 focus:outline-none dark:focus:ring-amber-800">Get Started Now</a>
+                        <a href="https://dash.catops.io/" class="text-white bg-amber-700 hover:bg-amber-800 focus:ring-4 focus:ring-amber-300 font-medium rounded-2xl text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-amber-600 dark:hover:bg-amber-700 focus:outline-none dark:focus:ring-amber-800">Get Started Now</a>
                     </div>
                 </div>
             </section>

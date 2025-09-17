@@ -6,11 +6,11 @@
 
 **CatOps** is an ultra-lightweight server monitoring tool that sends real-time alerts and live stats straight to your Telegram group in seconds. One curl command, zero setup hell.
 
-**Simple and flexible** - works offline or with web dashboard at [dash.catops.net](https://dash.catops.net)
+**Simple and flexible** - works offline or with web dashboard at [dash.catops.io](https://dash.catops.io)
 
 ```bash
 # Install in seconds (from website)
-curl -sfL https://catops.net/install.sh | bash
+curl -sfL https://catops.io/install.sh | bash
 
 # Or from GitHub
 git clone https://github.com/honley1/catops.git && cd catops && go build -o catops ./cmd/catops
@@ -49,7 +49,7 @@ catops start --telegram
 ### Cloud Mode Setup
 
 #### 1. Get API Key
-Visit [dash.catops.net](https://dash.catops.net) to create account and get API key.
+Visit [dash.catops.io](https://dash.catops.io) to create account and get API key.
 
 #### 2. Enable Cloud Mode
 ```bash
@@ -66,7 +66,7 @@ catops start --cloud
 
 - **Zero Configuration**: Works out of the box with sensible defaults
 - **Telegram Integration**: Get alerts directly in your Telegram group
-- **Local & Cloud Modes**: Run offline or sync with [dash.catops.net](https://dash.catops.net)
+- **Local & Cloud Modes**: Run offline or sync with [dash.catops.io](https://dash.catops.io)
 - **Real-time Monitoring**: CPU, Memory, Disk, Network, and Process monitoring
 - **Smart Alerts**: Configurable thresholds with rate limiting
 - **Cross-platform**: Linux, macOS, and Windows support
@@ -128,7 +128,7 @@ catops start --cloud
 
 **Local Mode** (default): Works offline, sends alerts to Telegram only.
 
-**Cloud Mode**: Also sends metrics to web dashboard at [dash.catops.net](https://dash.catops.net) for online monitoring.
+**Cloud Mode**: Also sends metrics to web dashboard at [dash.catops.io](https://dash.catops.io) for online monitoring.
 
 *Switch between modes automatically by running `catops auth login <token>`*
 
@@ -236,13 +236,13 @@ sudo chmod +x /usr/local/bin/moniq
 **Option A: From Website (Recommended)**
 ```bash
 # Basic installation
-curl -sfL https://catops.net/install.sh | bash
+curl -sfL https://catops.io/install.sh | bash
 
 # Or with Telegram setup
-curl -sfL https://catops.net/install.sh | BOT_TOKEN="your_bot_token" GROUP_ID="your_group_id" sh -
+curl -sfL https://catops.io/install.sh | BOT_TOKEN="your_bot_token" GROUP_ID="your_group_id" sh -
 ```
 
-**💡 Pro Tip:** Get ready-to-use commands from [dash.catops.net](https://dash.catops.net) or [catops.net](https://catops.net)
+**💡 Pro Tip:** Get ready-to-use commands from [dash.catops.io](https://dash.catops.io) or [catops.io](https://catops.io)
 
 **Option B: From GitHub**
 ```bash

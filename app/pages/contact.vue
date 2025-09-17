@@ -72,14 +72,14 @@ useSeoMeta({
   ogTitle: 'Contact CatOps - Get Help with Server Monitoring Setup',
   ogDescription: 'Get in touch with us. We\'d love to hear from you and help with your server monitoring needs.',
   ogImage: '/images/catops-contact-og.jpg',
-  ogUrl: 'https://catops.net/contact',
+  ogUrl: 'https://catops.io/contact',
   ogType: 'website',
   twitterCard: 'summary_large_image',
   twitterTitle: 'Contact CatOps - We\'re Here to Help',
   twitterDescription: 'Have questions about server monitoring? Our team is ready to assist you 24/7.',
   twitterImage: '/images/catops-contact-og.jpg',
   robots: 'index, follow',
-  canonical: 'https://catops.net/contact'
+  canonical: 'https://catops.io/contact'
 })
 
 useSchemaOrg([
@@ -87,7 +87,7 @@ useSchemaOrg([
     '@type': 'ContactPage',
     name: 'Contact CatOps',
     description: 'Get in touch with CatOps for server monitoring support and enterprise solutions',
-    url: 'https://catops.net/contact'
+    url: 'https://catops.io/contact'
   },
   {
     '@type': 'Organization',
@@ -95,7 +95,7 @@ useSchemaOrg([
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer service',
-      email: 'support@catops.net',
+      email: 'support@catops.io',
       availableLanguage: 'English'
     }
   }
@@ -220,7 +220,7 @@ useSchemaOrg([
                     <div class="mx-auto max-w-screen-sm text-center">
                         <h2 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-zinc-900 dark:text-white">Ready to start monitoring?</h2>
                         <p class="mb-6 font-light text-zinc-500 dark:text-zinc-400 md:text-lg">Don't wait for issues to find you. Start monitoring your infrastructure today.</p>
-                        <a href="https://dash.catops.net/" class="text-white bg-amber-700 hover:bg-amber-800 focus:ring-4 focus:ring-amber-300 font-medium rounded-2xl text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-amber-600 dark:hover:bg-amber-700 focus:outline-none dark:focus:ring-amber-800">Get Started Free</a>
+                        <a href="https://dash.catops.io/" class="text-white bg-amber-700 hover:bg-amber-800 focus:ring-4 focus:ring-amber-300 font-medium rounded-2xl text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-amber-600 dark:hover:bg-amber-700 focus:outline-none dark:focus:ring-amber-800">Get Started Free</a>
                     </div>
                 </div>
             </section>
