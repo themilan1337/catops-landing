@@ -1,6 +1,6 @@
 import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
-  ssr: true, // Enable SSR for better SEO
+  ssr: true,
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {
@@ -39,7 +39,7 @@ export default defineNuxtConfig({
     }
   },
   seo: {
-    redirectToCanonicalSiteUrl: true
+    redirectToCanonicalSiteUrl: false
   },
   site: {
     url: 'https://catops.io',
