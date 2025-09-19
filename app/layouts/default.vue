@@ -62,8 +62,10 @@
       </div>
     </footer>
   </div>
+  <SpeedInsights/>
 </template>
 <script setup>
+import { SpeedInsights } from '@vercel/speed-insights/vue';
 import { ref } from 'vue'
 import MobileNav from '~/components/MobileNav.vue'
 import MobileNavHeader from '~/components/MobileNavHeader.vue'

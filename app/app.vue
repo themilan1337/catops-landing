@@ -1,8 +1,5 @@
 <script setup lang="ts">
 import { Analytics } from '@vercel/analytics/nuxt';
-import { SpeedInsights } from "@vercel/speed-insights/nuxt"
-
-// Performance optimizations
 useHead({
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -14,7 +11,6 @@ useHead({
 <template>
   <div class="bg-white dark:bg-black">
     <NuxtLayout name="default">
-      <SpeedInsights/>
       <Analytics />
       <NuxtPage />
     </NuxtLayout>
